@@ -21,7 +21,7 @@ const foundFiles = glob.sync(path.join(baseDir, globPattern), {
 });
 
 if (!foundFiles.length) {
-  console.error("No files found matching the pattern.");
+  console.error("No matching files found");
   return;
 }
 
