@@ -16,9 +16,10 @@ const filesList = new Set(config.filesList?.map((file) => file.toLowerCase()));
 const SEPARATOR =
   "-----------------------------------------------------------------------------------------";
 
-const foundFiles = glob.sync(path.join(baseDir, globPattern), {
-  absolute: true,
-});
+const foundFiles = glob.sync(
+  path.join(baseDir, globPattern).replace(/\\/g, "/"),
+  { absolute: true }
+);
 
 if (!foundFiles.length) {
   console.error("No matching files found");
