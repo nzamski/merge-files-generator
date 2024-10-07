@@ -32,11 +32,11 @@ const questions = [
     name: "targets",
     message: "Select target machines",
     choices: [
-      { title: "win-x64", value: "node18-win-x64", selected: true },
-      { title: "macos-x64", value: "node18-macos-x64" },
-      { title: "macos-arm64", value: "node18-macos-arm64" },
-      { title: "linux-x64", value: "node18-linux-x64" },
-      { title: "linux-arm64", value: "node18-linux-arm64" },
+      { title: "win-x64", value: "latest-win-x64", selected: true },
+      { title: "macos-x64", value: "latest-macos-x64" },
+      { title: "macos-arm64", value: "latest-macos-arm64" },
+      { title: "linux-x64", value: "latest-linux-x64" },
+      { title: "linux-arm64", value: "latest-linux-arm64" },
     ],
   },
 ];
