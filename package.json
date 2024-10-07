@@ -1,6 +1,6 @@
 {
   "name": "merge-files-generator",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "CLI tool to generate executable merge-files",
   "author": "Noam Zamski",
   "license": "ISC",
